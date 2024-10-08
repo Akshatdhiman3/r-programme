@@ -1,0 +1,32 @@
+#1
+i=0
+repeat{
+  print("hi")
+i=i+1
+if(i>3)
+{
+  break
+}
+}
+
+#2
+i=0
+repeat{
+  print("hi")
+  i=i+1
+  if(i==3)
+  {
+    break
+  }
+}
+
+#3
+i=0
+repeat{
+  print("i")
+  i=i+1
+  if(i==3)
+  {
+    next
+  }
+}
